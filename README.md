@@ -1,6 +1,13 @@
 # hello-cli
 
-This makes dad jokes
+A fun command line project made using the `commander` CLI library, Okta API, and `icanhazdadjoke` API.
+
+This CLI:
+
+* makes dad jokes using the `icanhazdadjoke` API
+* allows access to authentication tokens and user info via the Okta OAuth 2.0 PKCE protocol
+
+
 
 ## Installation
 1. Clone this repo
