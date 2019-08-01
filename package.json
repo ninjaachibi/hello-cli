@@ -4,14 +4,19 @@
   "description": "hello world cli application",
   "main": "bin/index.js",
   "bin": {
-    "hello": "./bin/index.js"
+    "hello": "./bin/index.js",
+    "pkce-login": "./bin/pkceLogin.js"
   },
   "author": "Robert Luo",
   "license": "MIT",
   "dependencies": {
+    "@hapi/hapi": "18.3",
     "axios": "0.19",
     "boxen": "4.0",
     "chalk": "2.4",
+    "dotenv": "8.0",
+    "open": "6.3",
+    "uuid": "3.3",
     "yargs": "13.2"
   }
 }
