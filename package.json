@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@hapi/hapi": "18.3",
-    "axios": "0.19",
+    "axios": "0.21",
     "boxen": "4.0",
     "chalk": "2.4",
     "dotenv": "8.0",
